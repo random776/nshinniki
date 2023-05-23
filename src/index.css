@@ -55,6 +55,18 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+.kirikae {
+  border: 1px solid rgb(255, 106, 0);
+}
+
+.kaisetsu {
+  font-size: 85%;
+  background-color: #a2a1b8;
+  color: #2a2a2a;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #ffffff;
