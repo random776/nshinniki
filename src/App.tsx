@@ -127,7 +127,7 @@ function App() {
         <p>
         また、<MathComponent
           display={false}
-          tex={String.raw`${after}^{${numberArray2.length}}<${number}<${after}^{${numberArray2.length + 1}} \:`}
+          tex={String.raw`${after}^{${numberArray2.length}}\leq ${number}<${after}^{${numberArray2.length + 1}} \:`}
         ></MathComponent>であるから、ここから{after}進法に直すと、
         </p>
       <MathComponent
